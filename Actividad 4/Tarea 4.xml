@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Pedidos SYSTEM "Tarea 4.dtd">
+
+<Pedidos>
+    <Pedido>
+        <Pizzas>
+            <Pizza>
+                <NombreDePizza>Margarita</NombreDePizza>
+                <Ingredienteadicional>Pimientos Morrones</Ingredienteadicional>
+                <Cantidad>1</Cantidad>
+            </Pizza>
+
+            <Pizza>
+                <NombreDePizza>Artesana</NombreDePizza>
+                <Ingredienteadicional>Ninguno</Ingredienteadicional>
+                <Cantidad>2</Cantidad>
+            </Pizza>
+
+            <Pizza>
+                <NombreDePizza>Vegetal</NombreDePizza>
+                <Ingredienteadicional>Ninguno</Ingredienteadicional>
+                <Cantidad>1</Cantidad>
+            </Pizza>
+
+
+        </Pizzas>
+        <Direccion>calle Guanarteme, nº 17</Direccion>
+        <NombreDelCliente>Pepe Pérez</NombreDelCliente>
+
+
+    </Pedido>
+</Pedidos>

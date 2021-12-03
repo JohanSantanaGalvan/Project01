@@ -1,0 +1,14 @@
+p {
+    font-size: large;
+    font-weight: bolder;
+    color:blue;
+}
+
+#favourite-country{
+
+    color:red;
+}
+
+.greetings{
+    background-color:blueviolet;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ URL: protocolo://dominio/ruta
+ URI: protocolo://dominio/ruta
+no se tiene por qué corresponder con un recurso de internet, puede ser un identificador de algo abstracto.
+URI es un enlace que no existe
+-->
+<!DOCTYPE inversiones SYSTEM "inversiones.dtd">
+
+<inversiones xmlns:pais="http://miempresa.com/paises" xmlns="http://miempresa.com/dinero">
+    <pais nombre="Francia">
+
+        <pais:capital>París</pais:capital>
+        <capital>1000000</capital>
+    </pais>
+</inversiones>

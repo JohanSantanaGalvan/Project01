@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruta de la Viña y la Mudada</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="js/components/change_site.js"></script>
+    <script src="js/components/ambient_sound.js"></script>
+    <script src="js/components/change_scene.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="my-container" id="my-menu">
+
+        <label for="opacity" class="form-label">Opacity:</label>
+        <input type="range" class="form-range" id="opacity" name="opacity" min="0" max="1" value="0" step="0.1">
+
+        <label for="roughness" class="form-label">Roughness:</label>
+        <input type="range" class="form-range" id="roughness" name="roughness" min="0" max="1" value="0" step="0.1">
+
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color" value="#ff0000">
+
+        <div class="wireframe">
+            <label class="switch">
+                <input type="checkbox" id="wireframe" checked>
+                <span class="slider round"></span>
+            </label>
+            Wireframe
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button id="speaker-button">
+            <img id="speaker-img" src="img/sound_off.png" alt="texture">
+        </button>
+    </div>
+
+    <a-scene cursor="rayOrigin: mouse;" raycaster="far: 100; objects: [link];">
+
+        <a-assets>
+            <audio id="click-sound" src="audio/click_sound.wav" preload="auto"></audio>
+            <audio id="calm-sound" src="audio/calm_sound.wav" preload="auto"></audio>
+            <img id="menu" src="img/Menu.jpg" alt="Menu">
+            <img id="point-1" src="img/Point_1.jpg" alt="Point 1">
+            <img id="point-2" src="img/Point_2.jpg" alt="Point 2">
+            <img id="point-3" src="img/Point_3.jpg" alt="Point 3">
+            <img id="point-4" src="img/Point_4.jpg" alt="Point 4">
+            <img id="point-5" src="img/Point_5.jpg" alt="Point 5">
+            <img id="point-6" src="img/Point_6.jpg" alt="Point 6">
+            <img id="point-7" src="img/Point_7.jpg" alt="Point 7">
+            <img id="starting-point" src="img/Starting_point.jpg" alt="Starting Point">
+            <img id="final-point" src="img/Final_point.jpg" alt="Final Point">
+        </a-assets>
+
+        <a-camera>
+            <a-cursor raycaster="objects: .clickable"></a-cursor>
+        </a-camera>
+
+        <a-sky id="my-sky" src="#menu" sound="src: #calm-sound; loop: true" data-sounding="false"></a-sky>
+
+        <a-link position="-5.5 1.6 -4" rotation="0 40 0" href="starting_point.html"
+            title="CASA DEL AGUARDIENTE DE LOS FRANCESES" image="#starting-point"
+            sound="on: mouseenter; src: #click-sound"></a-link>
+
+        <a-link position="-1.5 1.6 -5" rotation="0 20 0" href="point_1.html" title="D. O. EL HIERRO" image="#point-1"
+            sound="on: mouseenter; src: #click-sound"></a-link>
+
+        <a-link position="1.745 1.519 -5.448" rotation="0 0.000 0" href="point_2.html"
+            title="Ermita de Nuestra Senora de Candelaria" image="#point-2" sound="on: mouseenter; src: #click-sound">
+        </a-link>
+
+        <a-link position="3.537 1.524 -3.730" rotation="0 -50.000 0" href="point_3.html" title="Campo"
+            image="#point-3" sound="on: mouseenter; src: #click-sound"></a-link>
+
+            <a-link position="4.547 1.502 -1.383" rotation="0 -75.000 0" href="point_4.html" title="Plaza de las Lapas" image="#point-4"
+            sound="on: mouseenter; src: #click-sound"></a-link>
+
+            <a-link position="3.562 1.395 1.148" rotation="0 90.000 0" href="point_5.html" title="Muro de Piedra" image="#point-5"
+            sound="on: mouseenter; src: #click-sound"></a-link>
+
+            <a-link position="2.646 1.333 3.568" rotation="0 50.000 0" href="point_6.html" title="Montana" image="#point-6"
+            sound="on: mouseenter; src: #click-sound"></a-link>
+
+            <a-link position="0.214 1.374 3.557" rotation="0 0 0" href="point_7.html" title="Casa de Agua Nueva" image="#point-7"
+            sound="on: mouseenter; src: #click-sound"></a-link>
+
+            <a-link position="-2.974 1.420 1.368" rotation="0 -50.000 0" href="final_point.html" title="Cooperativa y Vinicola Del Campo de la Frontera" image="#final-point"
+            sound="on: mouseenter; src: #click-sound"></a-link>
+
+    </a-scene>
+</body>
+
+</html>

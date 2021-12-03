@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cabeceraweb-inicio{
+	background-color:#ffffff;
+	height: 80px
+	
+
+}
+
+#cabeceraweb-nier-replicant{
+	background-color:#cccccc;
+	height: 80px
+
+}
+
+#cabeceraweb-ys-ix-monstrum-nox{
+	background-color:#2A2E2E;
+	height: 80px
+
+}
+
+#cabeceraweb-final-fantasy-xvi{
+	background-color:#2B292B;
+	height: 80px
+
+}
+
+#cabeceraweb-neo-the-world-ends-with-you{
+	background-color:#000000;
+	height: 80px
+
+}
+
+#cabeceraweb-persona-4-golden{
+	background-color:#000000;
+	height: 80px
+
+}
+
+
+
+
+#cuerpo-inicio{
+	background-color:#5a3452;
+
+}
+
+#cuerpo-nier-replicant{
+	background-color:#000000;
+
+}
+
+#cuerpo-final-fantasy-xvi{
+	background-color:#721111;
+
+}
+
+#cuerpo-neo-the-world-ends-with-you{
+	background-color:#6487C2;
+
+}
+
+#cuerpo-persona-4-golden{
+	background-color:#e4e712;
+
+}
+
+#cuerpo-ys-ix-monstrum-nox{
+	background-color:#A8A9B5;
+
+}
+
+#barralateral-inicio{
+	background-color:#ffffff;
+	float:left;
+	height:300px;
+	width: 239.5px;
+
+}
+
+#barralateral-nier-replicant{
+	background-color:#ffffff;
+	float:left;
+	height:300px;
+	width: 239.5px;
+
+}
+
+#barralateral-final-fantasy-xvi{
+	background-color:#ffffff;
+	float:left;
+	height:300px;
+	width: 239.5px;
+
+}
+
+#barralateral-neo-the-world-ends-with-you{
+	background-color:#ffffff;
+	float:left;
+	height:300px;
+	width: 239.5px;
+
+}
+
+#barralateral-ys-ix-monstrum-nox{
+	background-color:#ffffff;
+	float:left;
+	height:300px;
+	width: 239.5px;
+
+}
+
+#barralateral-persona-4-golden{
+	background-color:#ffffff;
+	float:left;
+	height:300px;
+	width: 239.5px;
+
+}
+
+
+#contenido-inicio{
+	background-color:#660066;
+	margin-left:240px;
+
+}
+
+#contenido-nier-replicant{
+	background-color:#000000;
+	margin-left:240px;
+
+}
+
+#contenido-final-fantasy-xvi{
+	background-color:#000000;
+	margin-left:240px;
+
+}
+
+#contenido-neo-the-world-ends-with-you{
+	background-color:#000000;
+	margin-left:240px;
+
+}
+
+#contenido-persona-4-golden{
+	background-color:#000000;
+	margin-left:240px;
+
+}
+
+#contenido-ys-ix-monstrum-nox{
+	background-color:#000000;
+	margin-left:240px;
+
+}
+
+
+#pie-inicio{
+	background-color:#8c8c8c;
+	clear:both;
+	margin-top:30px;
+}
+
+#pie-nier-replicant{
+	background-color:#8c8c8c;
+	clear:both;
+	margin-top:30px;
+}
+
+#pie-final-fantasy-xvi{
+	background-color:#411717;
+	clear:both;
+	margin-top:30px;
+}
+
+#pie-neo-the-world-ends-with-you{
+	background-color:#0e1622;
+	clear:both;
+	margin-top:30px;
+}
+
+#pie-ys-ix-monstrum-nox{
+	background-color:#3b1313;
+	clear:both;
+	margin-top:30px;
+}
+
+#pie-persona-4-golden{
+	background-color:#8c8c8c;
+	clear:both;
+	margin-top:30px;
+}
+	
+
+span{
+	display: inline-block;
+	font-weight: bolder;
+	animation: mover 6s linear infinite;
+}
+@keyframes mover{
+	0%{
+	text-shadow: 0 0 30px rgba(0,0,0,0);
+	}
+	50%{
+	text-shadow: 0 0 30px rgba(0,0,0,0.30);
+	transform: translateY(30px);
+	}	
+	100%{
+	text-shadow: 0 0 30px rgba(0,0,0,0);
+	}
+
+}
+
+div.text{
+	text-align: center;
+}
+
+
+div.image{
+	text-align: center;
+}
+
+.left{
+
+	float:left;
+
+}
+
+.right{
+
+	float:right;
+
+}
+
+.container-nier-replicant > div{
+
+	width: 900px;
+	height: 315px;
+	background-color:gray
+
+}
+
+.container-nier-replicant-2 > div{
+
+	width: 370px;
+	height: 620px;
+	background-color:gray
+
+}
+
+.container-final-fantasy-xvi > div{
+
+	width: 900px;
+	height: 315px;
+	background-color:rgb(80, 33, 33)
+
+}
+
+.container-final-fantasy-xvi-2 > div{
+
+	width: 370px;
+	height: 620px;
+	background-color:rgb(80, 33, 33)
+
+}
+
+.container-ys-ix-monstrum-nox > div{
+
+	width: 900px;
+	height: 315px;
+	background-color: #3b1313
+
+}
+
+.container-ys-ix-monstrum-nox-2 > div{
+
+	width: 370px;
+	height: 620px;
+	background-color: #3b1313
+
+}
+
+.container-neo-the-world-ends-with-you > div{
+
+	width: 900px;
+	height: 315px;
+	background-color:rgb(19, 94, 124)
+
+}
+
+.container-neo-the-world-ends-with-you-2 > div{
+
+	width: 370px;
+	height: 620px;
+	background-color:rgb(19, 94, 124)
+
+}
+
+.container-persona-4-golden > div{
+
+	width: 900px;
+	height: 315px;
+	background-color:rgb(209, 211, 87)
+
+}
+
+.container-persona-4-golden-2 > div{
+
+	width: 370px;
+	height: 620px;
+	background-color:rgb(209, 211, 87)
+
+}
+
+
+.text-box{
+	font-size: 50px;
+	font-family: sans-serif;
+	position: absolute;
+	top: 0%;
+	left: 25%;
+}
+

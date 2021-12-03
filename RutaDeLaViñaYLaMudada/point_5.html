@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruta de la Viña y la Mudada</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="js/components/change_site.js"></script>
+    <script src="js/components/ambient_sound.js"></script>
+    <script src="js/components/change_scene.js"></script>
+    <script src="js/components/my_color.js"></script>
+    <script src="js/components/my_opacity.js"></script>
+    <script src="js/components/my_roughness.js"></script>
+    <script src="js/components/my_wireframe.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="my-container" id="my-menu">
+
+        <label for="opacity" class="form-label">Opacity:</label>
+        <input type="range" class="form-range" id="opacity" name="opacity" min="0" max="1" value="0" step="0.1">
+
+        <label for="roughness" class="form-label">Roughness:</label>
+        <input type="range" class="form-range" id="roughness" name="roughness" min="0" max="1" value="0" step="0.1">
+
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color" value="#ff0000">
+
+        <div class="wireframe">
+            <label class="switch">
+                <input type="checkbox" id="wireframe" checked>
+                <span class="slider round"></span>
+            </label>
+            Wireframe
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button id="speaker-button">
+            <img id="speaker-img" src="img/sound_off.png" alt="texture">
+        </button>
+    </div>
+
+    <a-scene cursor="rayOrigin: mouse;" raycaster="far: 100; objects: [link];">
+
+        <a-assets>
+            <audio id="click-sound" src="audio/click_sound.wav" preload="auto"></audio>
+            <audio id="calm-sound" src="audio/calm_sound.wav" preload="auto"></audio>
+            <img id="menu" src="img/Menu.jpg" alt="Menu">
+            <img id="point-5" src="img/Point_5.jpg" alt="Point 5">
+            <img id="point-6" src="img/Point_6.jpg" alt="Point 6">
+        </a-assets>
+
+        <a-camera>
+            <a-cursor raycaster="objects: .clickable"></a-cursor>
+        </a-camera>
+
+        <a-entity>
+            <a-box id="my-box" class="clickable"  my-color="color: #ff0000;"
+                my-opacity="opacity: 1;" position="-2.665 2.331 0.489" scale="0.3 0.3 0.3" rotation="0 45 10"
+                my-wireframe="wireframe: false"
+                animation="property: rotation; to: 0 360 180; dir: alternate; loop: true; dur: 5000" go-exit
+                ></a-box>
+
+            <a-link position="-2.612 0.865 -0.287" rotation="0 90.000 0" href="point_6.html" title="Montana"
+                image="#point-6" sound="on: mouseenter; src: #click-sound"></a-link>
+
+        </a-entity>
+
+        <a-entity>
+            <a-box  class="clickable"  my-color="color: #ff0000;"
+                my-opacity="opacity: 1;" position="4.798 2.585 -0.561" scale="0.3 0.3 0.3" rotation="0 45 10"
+                my-wireframe="wireframe: false"
+                animation="property: rotation; to: 0 360 180; dir: alternate; loop: true; dur: 5000" go-exit
+                ></a-box>
+
+            <a-link position="4.645 1.094 0.022" rotation="0 90.000 0" href="menu.html" title="Menu" image="#menu"
+                sound="on: mouseenter; src: #click-sound"></a-link>
+
+        </a-entity>
+
+        <a-sky id="my-sky" src="#point-5" sound="src: #calm-sound; loop: true" data-sounding="false"></a-sky>
+    </a-scene>
+</body>
+
+</html>

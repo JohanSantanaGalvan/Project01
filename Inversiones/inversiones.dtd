@@ -1,0 +1,8 @@
+<!ELEMENT inversiones (pais)>
+<!ELEMENT pais (pais:capital, capital)>
+<!ELEMENT pais:capital (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+<!ATTLIST inversiones xmlns:pais CDATA #REQUIRED
+                        xmlns CDATA #REQUIRED
+                        >
+<!ATTLIST pais nombre CDATA #REQUIRED>

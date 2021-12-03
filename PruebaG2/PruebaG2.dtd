@@ -1,0 +1,26 @@
+
+<!ELEMENT fred_olsen (barcos)>
+<!ELEMENT barcos (barco+)>
+<!ELEMENT barco (viajes)>
+<!ATTLIST barco name CDATA #REQUIRED>
+<!ELEMENT viajes (viaje+)>
+<!ELEMENT viaje (puerto_de_origen,puerto_de_destino,puertos_intermedios,empleados)>
+<!ATTLIST viaje fecha CDATA #REQUIRED hora_salida CDATA #REQUIRED>
+<!ELEMENT puerto_de_origen (#PCDATA)>
+<!ELEMENT puerto_de_destino (#PCDATA)>
+<!ELEMENT puertos_intermedios (puerto_intermedio+)>
+<!ELEMENT puerto_intermedio (nombre_puerto,tiempo)>
+<!ELEMENT nombre_puerto (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT empleado (ventas_realizadas)>
+<!ATTLIST empleado DNI CDATA #REQUIRED tiempo_trabajado CDATA #REQUIRED>
+<!ELEMENT ventas_realizadas (productos)>
+<!ATTLIST ventas_realizadas cantidad CDATA #REQUIRED>
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (cantidad_vendida,CIF_empresa?,precio_producto,IGIC)>
+<!ATTLIST producto nombre CDATA #REQUIRED>
+<!ELEMENT cantidad_vendida (#PCDATA)>
+<!ELEMENT precio_producto (#PCDATA)>
+<!ELEMENT IGIC (#PCDATA)>
+<!ELEMENT CIF_empresa (#PCDATA)>

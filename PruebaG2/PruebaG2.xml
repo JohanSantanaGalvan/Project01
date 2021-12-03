@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PruebaG2.dtd" type="application/xml-dtd"?>
+
+<fred_olsen>
+
+    <barcos>
+
+        <barco name="Fred Olsen Número 577">
+
+            <viajes>
+
+                <viaje fecha="19112020" hora_salida="13:20">
+
+                    <puerto_de_origen>Agaete</puerto_de_origen>
+                    <puerto_de_destino>Santa Cruz de la Palma</puerto_de_destino>
+
+                    <puertos_intermedios>
+
+                        <puerto_intermedio>
+
+                            <nombre_puerto>Santa Cruz de Tenerife</nombre_puerto>
+                            <tiempo>20</tiempo>
+
+                        </puerto_intermedio>
+
+                        <puerto_intermedio>
+
+                            <nombre_puerto>Valverde</nombre_puerto>
+                            <tiempo>15</tiempo>
+
+                        </puerto_intermedio>
+
+                    </puertos_intermedios>
+
+                    <empleados>
+
+                        <empleado DNI="54824624F" tiempo_trabajado="5 años">
+
+                            <ventas_realizadas cantidad="45">
+
+                                <productos>
+
+                                    <producto nombre="Chocolatinas Tirma">
+
+                                        <cantidad_vendida>20</cantidad_vendida>
+                                        <CIF_empresa>C-29989934</CIF_empresa>
+                                        <precio_producto>3</precio_producto>
+                                        <IGIC>0.21</IGIC>
+
+                                    </producto>
+
+                                    <producto nombre="Papas Munchitos">
+
+                                        <cantidad_vendida>25</cantidad_vendida>
+                                        <CIF_empresa>S-67778912</CIF_empresa>
+                                        <precio_producto>1.50</precio_producto>
+                                        <IGIC>0.105</IGIC>
+                                    </producto>
+
+                                </productos>
+
+                            </ventas_realizadas>
+
+                        </empleado>
+
+                        <empleado DNI="90784956V" tiempo_trabajado="10 años">
+
+                            <ventas_realizadas cantidad="106">
+
+                                <productos>
+
+                                    <producto nombre="Folletos de La Palma">
+
+                                        <cantidad_vendida>56</cantidad_vendida>
+                                        <precio_producto>5</precio_producto>
+                                        <IGIC>0.35</IGIC>
+                                    </producto>
+
+                                    <producto nombre="Postales de recuerdo">
+
+                                        <cantidad_vendida>50</cantidad_vendida>
+                                        <precio_producto>4</precio_producto>
+                                        <IGIC>0.28</IGIC>
+
+                                    </producto>
+
+                                </productos>
+
+                            </ventas_realizadas>
+
+                        </empleado>
+
+                    </empleados>
+
+
+                </viaje>
+
+                <viaje fecha="21032021" hora_salida="04:00">
+
+                    <puerto_de_origen>Puerto del rosario</puerto_de_origen>
+                    <puerto_de_destino>Valverde</puerto_de_destino>
+
+                    <puertos_intermedios>
+
+                        <puerto_intermedio>
+
+                            <nombre_puerto>Agaete</nombre_puerto>
+                            <tiempo>30</tiempo>
+
+                        </puerto_intermedio>
+
+                        <puerto_intermedio>
+
+                            <nombre_puerto>Santa Cruz de Tenerife</nombre_puerto>
+                            <tiempo>60</tiempo>
+
+                        </puerto_intermedio>
+
+                        <puerto_intermedio>
+
+                            <nombre_puerto>San Sebastián de la Gomera</nombre_puerto>
+                            <tiempo>90</tiempo>
+
+                        </puerto_intermedio>
+
+                    </puertos_intermedios>
+
+                    <empleados>
+
+                        <empleado DNI="23567180Z" tiempo_trabajado="8 años">
+
+                            <ventas_realizadas cantidad="23">
+
+                                <productos>
+
+                                    <producto nombre="Libro Lazarillo de Tormes">
+
+                                        <cantidad_vendida>3</cantidad_vendida>
+                                        <precio_producto>15</precio_producto>
+                                        <IGIC>1.05</IGIC>
+
+                                    </producto>
+
+                                    <producto nombre="Polo Bakoka de fresa">
+
+                                        <cantidad_vendida>20</cantidad_vendida>
+                                        <CIF_empresa>B-21087756</CIF_empresa>
+                                        <precio_producto>1</precio_producto>
+                                        <IGIC>0.07</IGIC>
+
+                                    </producto>
+
+                                </productos>
+
+                            </ventas_realizadas>
+                        </empleado>
+
+                        <empleado DNI="09134584X" tiempo_trabajado="15 años">
+                            <ventas_realizadas cantidad="35">
+
+                                <productos>
+
+                                    <producto nombre="Boligrafos BIC">
+
+                                        <cantidad_vendida>5</cantidad_vendida>
+                                        <precio_producto>1.20</precio_producto>
+                                        <IGIC>0.08</IGIC>
+
+                                    </producto>
+
+                                    <producto nombre="Conguitos">
+
+                                        <cantidad_vendida>20</cantidad_vendida>
+                                        <CIF_empresa>D-67825698</CIF_empresa>
+                                        <precio_producto>1.45</precio_producto>
+                                        <IGIC>0.10</IGIC>
+
+                                    </producto>
+
+                                    <producto nombre="Pipas Tijuana">
+
+                                        <cantidad_vendida>10</cantidad_vendida>
+                                        <CIF_empresa>F-67213458</CIF_empresa>
+                                        <precio_producto>2.10</precio_producto>
+                                        <IGIC>0.14</IGIC>
+
+                                    </producto>
+
+                                </productos>
+
+                            </ventas_realizadas>
+
+                        </empleado>
+
+                    </empleados>
+
+
+                </viaje>
+
+            </viajes>
+
+
+        </barco>
+
+
+        <barco name="Fred Olsen Número 344">
+
+            <viajes>
+
+                <viaje fecha="20190625" hora_salida="16:45">
+
+                    <puerto_de_origen>Arrecife</puerto_de_origen>
+                    <puerto_de_destino>Santa Cruz de la Palma</puerto_de_destino>
+
+                    <puertos_intermedios>
+
+                        <puerto_intermedio>
+
+                            <nombre_puerto>Puerto del rosario</nombre_puerto>
+                            <tiempo>50</tiempo>
+
+                        </puerto_intermedio>
+
+                        <puerto_intermedio>
+
+                            <nombre_puerto>Agaete</nombre_puerto>
+                            <tiempo>70</tiempo>
+
+                        </puerto_intermedio>
+
+                        <puerto_intermedio>
+
+                            <nombre_puerto>Santa Cruz de Tenerife</nombre_puerto>
+                            <tiempo>45</tiempo>
+
+                        </puerto_intermedio>
+
+                        <puerto_intermedio>
+
+                            <nombre_puerto>San sebastián de la Gomera</nombre_puerto>
+                            <tiempo>90</tiempo>
+
+                        </puerto_intermedio>
+
+                        <puerto_intermedio>
+
+                            <nombre_puerto>Valverde</nombre_puerto>
+                            <tiempo>80</tiempo>
+
+                        </puerto_intermedio>
+
+                    </puertos_intermedios>
+
+                    <empleados>
+
+                        <empleado DNI="67443038S" tiempo_trabajado="3 años">
+
+                            <ventas_realizadas cantidad="30">
+
+                                <productos>
+
+                                    <producto nombre="Lays Sabor Original">
+
+                                        <cantidad_vendida>30</cantidad_vendida>
+                                        <CIF_empresa>D-89744433</CIF_empresa>
+                                        <precio_producto>2</precio_producto>
+                                        <IGIC>0.14</IGIC>
+                                    </producto>
+
+                                </productos>
+
+                            </ventas_realizadas>
+
+                        </empleado>
+
+                        <empleado DNI="90784543A" tiempo_trabajado="11 años">
+
+                            <ventas_realizadas cantidad="60">
+
+                                <productos>
+
+                                    <producto nombre="Pegamento">
+
+                                        <cantidad_vendida>10</cantidad_vendida>
+                                        <precio_producto>3</precio_producto>
+                                        <IGIC>0.21</IGIC>
+                                    </producto>
+
+                                    <producto nombre="Postales de recuerdo">
+
+                                        <cantidad_vendida>30</cantidad_vendida>
+                                        <precio_producto>4</precio_producto>
+                                        <IGIC>0.28</IGIC>
+
+                                    </producto>
+
+                                    <producto nombre="Maltesers Chocolate">
+
+                                        <cantidad_vendida>20</cantidad_vendida>
+                                        <CIF_empresa>E-55446790</CIF_empresa>
+                                        <precio_producto>1.60</precio_producto>
+                                        <IGIC>0.11</IGIC>
+
+                                    </producto>
+
+                                </productos>
+
+                            </ventas_realizadas>
+
+                        </empleado>
+
+                        <empleado DNI="24523498B" tiempo_trabajado="6 años">
+
+                            <ventas_realizadas cantidad="46">
+
+                                <productos>
+
+                                    <producto nombre="Folletos de La Palma">
+
+                                        <cantidad_vendida>15</cantidad_vendida>
+                                        <precio_producto>5</precio_producto>
+                                        <IGIC>0.35</IGIC>
+                                    </producto>
+
+                                    <producto nombre="Trozo de tarta chocolate Mercadona">
+
+                                        <cantidad_vendida>31</cantidad_vendida>
+                                        <CIF_empresa>X-89754378</CIF_empresa>
+                                        <precio_producto>6</precio_producto>
+                                        <IGIC>0.42</IGIC>
+
+                                    </producto>
+
+                                </productos>
+
+                            </ventas_realizadas>
+
+                        </empleado>
+
+
+                    </empleados>
+
+                </viaje>
+
+            </viajes>
+
+
+        </barco>
+
+
+    </barcos>
+
+</fred_olsen>

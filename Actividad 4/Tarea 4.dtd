@@ -1,0 +1,9 @@
+<!ELEMENT Pedidos (Pedido)>
+<!ELEMENT Pedido (Pizzas, Direccion, NombreDelCliente)>
+<!ELEMENT Direccion (#PCDATA)>
+<!ELEMENT NombreDelCliente (#PCDATA)>
+<!ELEMENT Pizzas (Pizza+)>
+<!ELEMENT Pizza (NombreDePizza+, Ingredienteadicional, Cantidad+)>
+<!ELEMENT NombreDePizza  (#PCDATA)>
+<!ELEMENT Ingredienteadicional (#PCDATA)>
+<!ELEMENT Cantidad (#PCDATA)>
